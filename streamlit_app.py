@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-@st.cache_resource(show_spinner=True)
+@st.experimental_singleton
 def init_analytics():
     import os
 
