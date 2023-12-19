@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-@st.cache
+@st.cache_resource
 def init_analytics():
     import os
 
