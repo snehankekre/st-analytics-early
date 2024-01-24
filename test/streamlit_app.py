@@ -23,3 +23,6 @@ gtag('config', 'G-8DX64VZSF6');
 </script>
 """,
 )
+
+st.title("Test")
+st.checkbox("Checkbox")
